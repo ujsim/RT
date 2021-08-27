@@ -65,9 +65,7 @@ const filter = (e) => {
 
        <h2>List of nemesis</h2>
 
-       <Switch>
-              <Route path="/:name" component={NemesisBio} />
-        </Switch>
+      
 
        {foundNemesis && foundNemesis.length > 0 ? (
         foundNemesis.map(obj => (
@@ -81,7 +79,13 @@ const filter = (e) => {
               ) : (
               <h1>No results found!</h1>
           )}
+          <h5>hero bio page end</h5>
           <hr/>
+
+          <Switch>
+              <Route path="/:name" component={NemesisBio} />
+              {/* <Route path="/:name" component={NemesisBio} /> */}
+        </Switch>
     </div> 
 
  

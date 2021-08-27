@@ -80,7 +80,7 @@ function App() {
               <h1>No results found!</h1>
           )}
           </SECTION> 
-        </CONTENTWRAPPER>                                                                 
+        </CONTENTWRAPPER>                                                            
     </div>
   );
 }
